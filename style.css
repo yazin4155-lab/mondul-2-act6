@@ -1,0 +1,66 @@
+* { margin: 0; padding: 0; box-sizing: border-box; background-color: #f5f5f5; font-family: Arial, sans-serif; }
+body { display: flex; justify-content: center; align-items: center; height: 100vh; }
+h1 { font-size: 2rem; color: #333; }
+.TopBar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+}
+.PetNote {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+ 
+position: relative;
+  left: 50%;
+ 
+}
+.PetCard {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  
+  
+ width: 200px;
+  
+ 
+}
+.PetCard img {
+  width: 80%;
+  border-radius: 8px;
+}
+.AdoptedBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.StickyLabel {
+  position: sticky;
+  top: 0;
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.ActCard {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+}
